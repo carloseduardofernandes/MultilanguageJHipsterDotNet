@@ -1,0 +1,52 @@
+{
+  "generator-jhipster": {
+    "blueprints": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "3.0.1"
+      }
+    ],
+    "otherModules": [
+      {
+        "name": "generator-jhipster-dotnetcore",
+        "version": "3.0.1"
+      }
+    ],
+    "baseName": "MultilanguageJHipsterDotNet",
+    "namespace": "MultilanguageJHipsterDotNet",
+    "applicationType": "monolith",
+    "jhipsterVersion": "7.0.1",
+    "skipClient": false,
+    "skipServer": false,
+    "skipUserManagement": false,
+    "skipCheckLengthOfIdentifier": false,
+    "skipFakeData": false,
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "testFrameworks": ["cucumber"],
+    "pages": [],
+    "creationTimestamp": 1622905219652,
+    "databaseType": "mysql",
+    "authenticationType": "jwt",
+    "serverPort": "5000",
+    "clientFramework": "angularX",
+    "clientTheme": "cyborg",
+    "clientThemeVariant": "dark",
+    "enableTranslation": true,
+    "nativeLanguage": "pt-br",
+    "clientPackageManager": "npm",
+    "withAdminUi": true,
+    "languages": ["pt-br", "en", "es"],
+    "packageName": "com.mycompany.myapp",
+    "cacheProvider": "ehcache",
+    "websocket": false,
+    "prodDatabaseType": "mysql",
+    "devDatabaseType": "h2Disk",
+    "searchEngine": false,
+    "buildTool": "maven",
+    "serviceDiscoveryType": false,
+    "enableHibernateCache": true,
+    "reactive": false
+  }
+}
